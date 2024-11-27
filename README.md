@@ -3,13 +3,13 @@ About zulip-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/zulip-feedstock/blob/main/LICENSE.txt)
 
-Home: https://www.zulip.org/
+Home: https://pypi.org/project/zulip
 
 Package license: MIT
 
 Summary: Bindings for the Zulip message API
 
-Development: https://github.com/zulip/python-zulip-api/
+Development: https://github.com/zulip/python-zulip-api
 
 Current build status
 ====================
