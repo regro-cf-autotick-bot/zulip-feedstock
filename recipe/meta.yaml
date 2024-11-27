@@ -17,17 +17,17 @@ build:
     - zulip-api=zulip.cli:cli
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python {{ python_min }}
   run:
     - click
     - distro
     - matrix-nio
-    - python >=3.8
+    - python >={{ python_min }}
     - requests >=0.12.1
     - typing-extensions >=4.5.0
 
@@ -44,6 +44,7 @@ test:
     # - zulip-api --help
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://pypi.org/project/zulip
